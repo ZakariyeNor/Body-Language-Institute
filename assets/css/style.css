@@ -10,10 +10,31 @@
  .header {
     min-height: 50vh;
     min-width: 100%;
-    background-image: linear-gradient(rgba(50, 55, 78, 0.6),rgba(4,9,30,0.6)),url(/assets/images/bli.jpg);
+    background-image: linear-gradient(rgba(23, 41, 112, 0.6),rgba(54, 82, 136, 0.58)),url(/assets/images/bli.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    
+ }
+
+ header {
+    font-family: 'Tenor Sans', sans-serif;
+    position: fixed;
+    box-shadow: 0 3px 2px rgb(from color r g b);
+    z-index: 99;
+    padding: 0 12px;
+
+
+ }
+
+ header a {
+    text-decoration: none;
+    color: #f7f7f7;
+ }
+
+ h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: x-large;
+    
  }
 
 body {
@@ -28,13 +49,12 @@ body {
 nav {
     position: absolute;
     z-index: 99;
-    box-shadow: 0 3px 2px rgb(44, 29, 44)2;
-    background-color: aliceblue;
-    width: 100%;
-    left: 0;
+    background-image: linear-gradient(rgba(23, 41, 112, 0.6),rgba(54, 82, 136, 0.58)),url(/assets/images/bli.jpg);
+    box-shadow: 0 3px 2px rgb(83, 99, 113) ;
+    width: 100vw;
     top: 100%;
-    padding-left: 12px;
-
+    left: 0;
+    padding: 0 12px;
 }
 
 #menu {
@@ -43,12 +63,12 @@ nav {
     letter-spacing: 0.06em;
 }
 #menu a {
-    color: rgb(81 , 89, 97);
+    color: rgb(222, 225, 228);
 }
 
 #menu > li {
     list-style-type: none;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 
