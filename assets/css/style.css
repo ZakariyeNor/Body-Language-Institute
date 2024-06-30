@@ -13,6 +13,11 @@ header {
     padding: 0 12px;
     box-shadow: 0 3px 2px rgb(44, 29, 44);
     z-index: 99;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 header a {
@@ -35,6 +40,18 @@ body {
 }
 
 /* Navigation */
+nav {
+    position: absolute;
+    z-index: 99;
+    box-shadow: 0 3px 2px rgb(44, 29, 44)2;
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding-left: 12px;
+
+}
+
 #menu {
     margin-top: 5px;
     font-size: 1em;
