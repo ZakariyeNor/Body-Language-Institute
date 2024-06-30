@@ -6,10 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
 header {
     background-color: aliceblue;
     font-family: 'Tenor Sans', sans-serif;
-    padding: 0 20px;
+    padding: 0 12px;
     box-shadow: 0 3px 2px rgb(44, 29, 44);
     z-index: 99;
 }
@@ -20,8 +21,9 @@ header a {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: x-large;
     color: rgb(81, 89, 97);
+    margin-top: 10px;
 }
 
 body {
@@ -31,6 +33,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+
+/* Navigation */
+#menu {
+    margin-top: 5px;
+    font-size: 1em;
+    letter-spacing: 0.06em;
+}
+#menu a {
+    color: rgb(81 , 89, 97);
+}
+
+#menu > li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
 
 main {
     background-color: rgb(131, 138, 137);
