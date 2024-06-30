@@ -10,15 +10,7 @@
 header {
     background-color: aliceblue;
     font-family: 'Tenor Sans', sans-serif;
-    padding: 0 12px;
-    box-shadow: 0 3px 2px rgb(44, 29, 44);
-    z-index: 99;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
+ }
 
 header a {
     text-decoration: none;
