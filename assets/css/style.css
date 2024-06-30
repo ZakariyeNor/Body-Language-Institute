@@ -1,0 +1,29 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+/* Wildcard selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: aliceblue;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+    background-color: blue;
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: blueviolet;
+}
