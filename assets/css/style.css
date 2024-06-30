@@ -7,21 +7,14 @@
     box-sizing: border-box;
 }
 /* header */
-header {
-    background-color: aliceblue;
-    font-family: 'Tenor Sans', sans-serif;
+ .header {
+    min-height: 50vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(50, 55, 78, 0.6),rgba(4,9,30,0.6)),url(/assets/images/bli.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
  }
-
-header a {
-    text-decoration: none;
-    font-family: 'Tenor Sans', sans-serif;
-}
-
-h1 {
-    font-size: x-large;
-    color: rgb(81, 89, 97);
-    margin-top: 10px;
-}
 
 body {
     display: flex;
