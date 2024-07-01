@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 /* header */
- .header {
+ .higher {
     min-height: 50vh;
     min-width: 100%;
     background-image: linear-gradient(rgba(23, 41, 112, 0.6),rgba(54, 82, 136, 0.58)),url(/assets/images/bli.jpg);
